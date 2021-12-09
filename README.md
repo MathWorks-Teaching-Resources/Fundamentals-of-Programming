@@ -1,4 +1,4 @@
-# Fundamentals of Programming [![View <File Exchange Title> on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/####)
+# Fundamentals of Programming [![View <File Exchange Title> on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/103225-fundamentals-of-programming)
 **Curriculum Module**  
 _Created with R2021b. Compatible with R2021b and later releases._ 
 
@@ -45,7 +45,7 @@ This script introduces `double` and `string` data types through interactive exam
 **programmingArrays.mlx**
 This script introduces 1, 2, and 3-D arrays, as well as a brief overview of matrix operations. Applications include both text and image data.
 
-<img src="CD/Human-Thoughtbubble.png" width="172"> <img src="CD/Computer-Thoughtbubble.png" width="349">
+<img src="https://user-images.githubusercontent.com/88841524/145442861-18dcb4cb-b135-42ac-942e-3f56194e2c23.png" width="172"> <img src="https://user-images.githubusercontent.com/88841524/145442883-39615554-4285-4922-a24e-ed3e12c2616f.png" width="349">
 
 **Learning Goals:**
 - Identify, create, and use vectors containing numbers or text
@@ -79,9 +79,7 @@ This script introduces the concept of conditional looping in the form of for loo
 ## ##
 **programmingChaosGameProject.mlx**
 
-<img src="https://user-images.githubusercontent.com/88841524/143081545-f64dc84f-3272-40bf-b952-b53cc36e1594.png" width="100">     
-<img src="https://user-images.githubusercontent.com/88841524/143081535-9c589293-d2cd-4b2d-ae28-4ad9096311de.png" width="100">     
-<img src="https://user-images.githubusercontent.com/88841524/143081525-e89145ef-c3bb-4084-bf94-cc6f585a8d83.png" width="100">
+<img src="https://user-images.githubusercontent.com/88841524/143081545-f64dc84f-3272-40bf-b952-b53cc36e1594.png" width="100"> <img src="https://user-images.githubusercontent.com/88841524/143081535-9c589293-d2cd-4b2d-ae28-4ad9096311de.png" width="100"> <img src="https://user-images.githubusercontent.com/88841524/143081525-e89145ef-c3bb-4084-bf94-cc6f585a8d83.png" width="100">
 
 **Learning Goals:**
 - Apply conditional branching and looping logic in context to solve problems
@@ -92,7 +90,7 @@ This script introduces the concept of conditional looping in the form of for loo
 ## ##
 **programmingAlgorithms.mlx**
 
-<img src="CD/mouseAnimated.gif" width="800">
+<img src="https://user-images.githubusercontent.com/88841524/145443694-5c4552e4-687c-4bd0-b63e-68dca9ca7f85.gif" width="800">
 
 **Learning Goals:**
 - Explain the concept of an algorithm
