@@ -99,7 +99,7 @@ This script introduces the concept of conditional looping in the form of for loo
  
 ## ##
 **chaosGame.m**
-This plain code file presents the basic scaffolding used to build an implementation of the chaos game on a square in `programmingChaosGameProject.mlx`.
+This plain code file presents the basic scaffolding used to build an implementation of the chaos game on a square in `programmingChaosGameProject.mlx`
 
 ## ##
 **CollectedProTips.mlx**
