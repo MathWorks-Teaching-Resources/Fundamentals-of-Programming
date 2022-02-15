@@ -20,6 +20,8 @@ This script brings together links and short descriptions of the content in the r
 **programmingIntroduction.mlx**
 This overview of the concepts of programming also includes discussion of errors, documentation, and other commonly encountered challenges for beginners.
 
+<img src="https://user-images.githubusercontent.com/88841524/154118752-64db3bc0-8d47-4797-b669-69b0de9ebe76.png" width="500">
+
 **Learning Goals:**
 - Recognize and use the terms input and output
 - Recognize, interpret, and respond to messages about syntax errors
@@ -45,7 +47,7 @@ This script introduces `double` and `string` data types through interactive exam
 **programmingArrays.mlx**
 This script introduces 1, 2, and 3-D arrays, as well as a brief overview of matrix operations. Applications include both text and image data.
 
-<img src="https://user-images.githubusercontent.com/88841524/145442861-18dcb4cb-b135-42ac-942e-3f56194e2c23.png" width="172"> <img src="https://user-images.githubusercontent.com/88841524/145442883-39615554-4285-4922-a24e-ed3e12c2616f.png" width="349">
+<img src="https://user-images.githubusercontent.com/88841524/154118617-8a5e1656-d3a6-46ca-bfa5-6795b9fedf35.png" width="172"> <img src="https://user-images.githubusercontent.com/88841524/154118517-ad83511a-8f20-452e-93e1-dc0858a3eb78.png" width="349">
 
 **Learning Goals:**
 - Identify, create, and use vectors containing numbers or text
@@ -60,7 +62,7 @@ This script introduces 1, 2, and 3-D arrays, as well as a brief overview of matr
 **programmingBranches.mlx**
 This script introduces the concept of conditional branching in the form of if/else branches and switch statements.
 
-<img src="https://user-images.githubusercontent.com/88841524/143081569-da98df74-e8a3-48b8-afe4-6457e7c08232.png" width="200">
+<img src="https://user-images.githubusercontent.com/88841524/154118810-85b52f3f-5372-48dc-88aa-e4d2a734d488.png" width="200">
 
 **Learning Goals:**
 - Recognize and apply if/then branching logic to solve problems
