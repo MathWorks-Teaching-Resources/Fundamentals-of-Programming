@@ -118,7 +118,7 @@ This live script serves as a collection of notes on using the Live Editor and th
 MATLAB&reg;
 
 ## License ##
-The license for this module is available in the [LICENSE.TXT](license.txt) file in this GitHub repository.
+The license for this module is available in the License.txt file in this GitHub repository.
 
 ## Support ##
 The solutions are available upon instructor request. If you would like to request solutions or have a question, contact the <a href="mailto:onlineteaching@mathworks.com">MathWorks online teaching team.</a>
