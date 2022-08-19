@@ -1,0 +1,471 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <!--
+This HTML was auto-generated from MATLAB code.
+To make changes, update the MATLAB code and republish this document.
+      --><title>Fundamentals of Programming</title><meta name="generator" content="MATLAB 9.12"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2022-08-05"><meta name="DC.source" content="Overview.m"><style type="text/css">
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+html { min-height:100%; margin-bottom:1px; }
+html body { height:100%; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#000; line-height:140%; background:#fff none; overflow-y:scroll; }
+html body td { vertical-align:top; text-align:left; }
+
+h1 { padding:0px; margin:0px 0px 25px; font-family:Arial, Helvetica, sans-serif; font-size:1.5em; color:#d55000; line-height:100%; font-weight:normal; }
+h2 { padding:0px; margin:0px 0px 8px; font-family:Arial, Helvetica, sans-serif; font-size:1.2em; color:#000; font-weight:bold; line-height:140%; border-bottom:1px solid #d6d4d4; display:block; }
+h3 { padding:0px; margin:0px 0px 5px; font-family:Arial, Helvetica, sans-serif; font-size:1.1em; color:#000; font-weight:bold; line-height:140%; }
+
+a { color:#005fce; text-decoration:none; }
+a:hover { color:#005fce; text-decoration:underline; }
+a:visited { color:#004aa0; text-decoration:none; }
+
+p { padding:0px; margin:0px 0px 20px; }
+img { padding:0px; margin:0px 0px 20px; border:none; }
+p img, pre img, tt img, li img, h1 img, h2 img { margin-bottom:0px; }
+
+ul { padding:0px; margin:0px 0px 20px 23px; list-style:square; }
+ul li { padding:0px; margin:0px 0px 7px 0px; }
+ul li ul { padding:5px 0px 0px; margin:0px 0px 7px 23px; }
+ul li ol li { list-style:decimal; }
+ol { padding:0px; margin:0px 0px 20px 0px; list-style:decimal; }
+ol li { padding:0px; margin:0px 0px 7px 23px; list-style-type:decimal; }
+ol li ol { padding:5px 0px 0px; margin:0px 0px 7px 0px; }
+ol li ol li { list-style-type:lower-alpha; }
+ol li ul { padding-top:7px; }
+ol li ul li { list-style:square; }
+
+.content { font-size:1.2em; line-height:140%; padding: 20px; }
+
+pre, code { font-size:12px; }
+tt { font-size: 1.2em; }
+pre { margin:0px 0px 20px; }
+pre.codeinput { padding:10px; border:1px solid #d3d3d3; background:#f7f7f7; }
+pre.codeoutput { padding:10px 11px; margin:0px 0px 20px; color:#4c4c4c; }
+pre.error { color:red; }
+
+@media print { pre.codeinput, pre.codeoutput { word-wrap:break-word; width:100%; } }
+
+span.keyword { color:#0000FF }
+span.comment { color:#228B22 }
+span.string { color:#A020F0 }
+span.untermstring { color:#B20000 }
+span.syscmd { color:#B28C00 }
+span.typesection { color:#A0522D }
+
+.footer { width:auto; padding:10px 0px; margin:25px 0px 0px; border-top:1px dotted #878787; font-size:0.8em; line-height:140%; font-style:italic; color:#878787; text-align:left; float:none; }
+.footer p { margin:0px; }
+.footer a { color:#878787; }
+.footer a:hover { color:#878787; text-decoration:underline; }
+.footer a:visited { color:#878787; }
+
+table th { padding:7px 5px; text-align:left; vertical-align:middle; border: 1px solid #d6d4d4; font-weight:bold; }
+table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px solid #d6d4d4; }
+
+
+
+
+
+  </style></head><body><div class="content"><h1>Fundamentals of Programming</h1><p>
+<span style="font-family:Arial">
+<span style="font-size:12pt">
+<h2> Information </h2>
+This curriculum module contains interactive
+<a href="https://www.mathworks.com/products/matlab/live-editor.html">MATLAB&reg; live scripts</a>
+that teach fundamental concepts and basic terminology related to programming computers.
+This includes discussion of inputs and outputs, numbers, strings, arrays, branches and loops.
+This content is broken into six instructional live scripts and one project where live script
+instructions are paired with a plain code practice script. Solutions are available to instuctors
+upon request.
+<br>
+<br>
+<a href=#module>Fundamentals of Programming</a> includes an
+    <a href=#script1>introduction</a> to programming which includes discussion of errors,
+    documentation, and other commonly encountered challenges for beginners. <a href=#script2>Data</a>
+    introduces double and string data types. <a href=#script3>Arrays</a> introduces 1, 2, and 3-D
+    arrays, as well as a brief overview of matrix operations. Applications include both text and
+    image data. <a href=#script4>Branches</a> introduces the concept of conditional branching in
+    the form of if/else branches and switch statements. <a href=#script5>Loops</a> introduces the
+    concept of conditional looping in the form of for loops and while loops. <a href=#script6>Chaos
+    Game Project</a> provides a scaffolded approach to implementing the chaos game by combining skills
+    from each of the other scripts. The final script, <a href=#script7>Algorithms</a>, introduces algorithms,
+   pseudocode, and testing. Additional files include a live script <a href=#nav>Navigation</a> page and
+   <a href=#hints>Collected Pro Tips</a>.
+<br>
+<br>
+You can use these live scripts as lecture demonstrations, class activities,
+or interactive assignments outside class. The module is divided into five instructional scripts,
+    one project script, one navigation script, and one script collecting reference notes from
+    all of the scripts into one place.
+<br>
+<br>
+The instructions inside the live scripts will guide you through the exercises and activities.
+Get started with each live script by running it one section at a time. To stop running the script
+or a section midway (for example, when an animation is in progress), use the <img src="../Images/end_24.png" height="16" style="vertical-align:top"> Stop button in the
+RUN section of the Live Editor tab in the MATLAB Toolstrip.
+<br>
+<br>
+If you find an issue or have a suggestion, email the MathWorks online teaching team at
+<a href="mailto:onlineteaching@mathworks.com">onlineteaching@mathworks.com</a>.
+<br>
+<br>
+<h2> Prerequisites </h2>
+This module assumes familiarity with basic mathematics at a high school level.
+    One exercise in <a href=#script2>Data.mlx</a> requires the use of the quadratic formula,
+    for instance. Understanding the chaos game requires locating points on a Cartesian
+    coordinate system and understanding of either vectors or midpoints. Trigonometric
+    functions are used as example functions. With respect to programming knowledge, this
+    module is intended for absolute beginners who have used simple calculators in the past.
+<br>
+<br>
+<h2> Getting Started </h2>
+<ol>
+    <li>
+        Make sure that you have all the required products (listed below)
+        installed.
+    </li>
+    <li>
+        Get started with each topic by clicking the link in the first column of the table below to access the
+        full script example. The instructions inside each live script will walk
+        you through the live scripts and related functions.
+    </li>
+</ol>
+<h2> Products </h2>
+    MATLAB&reg; is used throughout.
+<br>
+<br>
+<h2> <a name="module"; style = "text-decoration: none; color: inherit">Scripts</a> </h2>
+<table border=1 style="margin-left:20px; cellpadding:15px;">
+    <caption><h3>Organization of the Fundamentals of Programming Module</h3></caption>
+    <tr>
+        <th scope="col">Topic
+        </th>
+        <th scope="col">In this script, students will...
+        </th>
+    </tr>
+    <tr>
+        <th scope="row">
+            <a name="script1"; href="matlab:edit Introduction.mlx;"><b>Introduction.mlx</b>
+             <br>
+            <img src = "https://user-images.githubusercontent.com/88841524/143081581-19e050df-9989-4a0a-a0de-56fc72275c63.png" width=150 style="margin-top:5px; margin-bottom:0px">
+            </a>
+        </th>
+        <td>
+            <ul style="margin-top:5px; margin-bottom:10px">
+                <li> recognize and use the terms input and output. </li>
+                <li> recognize, interpret, and respond to messages about syntax errors. </li>
+                <li> recognize and interpret comments in code.</li>
+                <li> use documentation and search to learn more about how to use a programming language. </li>
+                <li> recognize and explain the importance of attention to detail when coding. </li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <th scope="row">
+            <a name="script2"; href="matlab:edit Data.mlx;"><b>Data.mlx</b>
+             <br>
+            <img src = "https://user-images.githubusercontent.com/88841524/143084625-68e803df-696b-41ef-9cbc-74d08408f2c2.png" width=150 style="margin-top:5px; margin-bottom:0px">
+            </a>
+        </th>
+        <td>
+            <ul style="margin-top:5px; margin-bottom:10px">
+                <li> recognize and explain that floating point arithmetic does not operate under the same rules as real number arithmetic. </li>
+                <li> apply the limitations of floating point arithmetic to computation. </li>
+                <li> recognize and use strings to store and communicate textual data.</li>
+                <li> recognize and use whitespace in string operations. </li>
+                <li> recognize and interpret special characters that are neither text nor numbers. </li>
+                <li> recognize and explain simple consequences of the interactions between data types. </li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <th scope="row">
+            <a name="script3"; href="matlab:edit Arrays.mlx;"><b>Arrays.mlx</b>
+             <br>
+            <img src = "https://user-images.githubusercontent.com/88841524/145442883-39615554-4285-4922-a24e-ed3e12c2616f.png" width=150 style="margin-top:5px; margin-bottom:0px">
+            </a>
+        </th>
+        <td>
+            <ul style="margin-top:5px; margin-bottom:10px">
+                <li> identify, create, and use vectors and matrices containing numbers or text. </li>
+                <li> use vector indexing to extract information from a vector or matrix. </li>
+                <li> identify standard file types and the corresponding extensions.</li>
+                <li> explain why file type matters and import data from external files. </li>
+                <li> recognize and use three dimensional arrays. </li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <th scope="row">
+            <a name="script4"; href="matlab:edit Branches.mlx;"><b>Branches.mlx</b>
+             <br>
+            <img src = "https://user-images.githubusercontent.com/88841524/143081569-da98df74-e8a3-48b8-afe4-6457e7c08232.png" width=150 style="margin-top:5px; margin-bottom:0px">
+            </a>
+        </th>
+        <td>
+            <ul style="margin-top:5px; margin-bottom:10px">
+                <li> recognize and apply if/then branching logic to solve problems. </li>
+                <li> recognize and apply switch branching logic to solve problems. </li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <th scope="row">
+            <a name="script5"; href="matlab:edit Loops.mlx;"><b>Loops.mlx</b>
+             <br>
+            <img src = "https://user-images.githubusercontent.com/88841524/143083387-21665b27-73f8-4a42-a899-095ef6ae250c.png" width=150 style="margin-top:5px; margin-bottom:0px">
+            </a>
+        </th>
+        <td>
+            <ul style="margin-top:5px; margin-bottom:10px">
+                <li> use for loop logic and syntax to write and execute iterative code. </li>
+                <li> use while loop logic and syntax to write and execute repetitive code, and decide when it is the correct method. </li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <th scope="row">
+            <a name="script6"; href="matlab:edit ChaosGameProject.mlx;"><b>Chaos Game Project</b>
+             <br>
+            <img src = "https://user-images.githubusercontent.com/88841524/143081545-f64dc84f-3272-40bf-b952-b53cc36e1594.png" width=150 style="margin-top:5px; margin-bottom:0px">
+            </a>
+        </th>
+        <td>
+            <ul style="margin-top:5px; margin-bottom:10px">
+                <li> apply conditional branching and looping logic in context to solve problems. </li>
+                <li> explain that different programming solutions to the same problem can run in very different amounts of time. </li>
+                <li> identify common file formats and their extensions. </li>
+                <li> communicate results by exporting data from a program in a standard, shareable file format.</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <th scope="row">
+            <a name="script7"; href="matlab:edit Algorithms.mlx;"><b>Algorithms.mlx</b>
+             <br>
+            <img src = "https://user-images.githubusercontent.com/88841524/145443694-5c4552e4-687c-4bd0-b63e-68dca9ca7f85.gif" width=150 style="margin-top:5px; margin-bottom:0px">
+            </a>
+        </th>
+        <td>
+            <ul style="margin-top:5px; margin-bottom:10px">
+                <li> explain the concept of an algorithm. </li>
+                <li> implement an algorithm presented in pseudocode. </li>
+                <li> explain the importance of testing both code and algorithms.</li>
+            </ul>
+        </td>
+    </tr>
+</table>
+<br>
+<h2> Additional Files </h2>
+<ul>
+    <li> <a name="nav" href="matlab:edit NavigationOverview.mlx"> Navigation Overview </a> as a live script </li>
+    <li> <a name="hints" href="matlab:edit CollectedProTips.mlx"> Collected Pro Tips </a> </li>
+</span>
+</span>
+</p><p>Copyright 2022 The MathWorks&#8482;, Inc.</p><p class="footer"><br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2022a</a><br></p></div><!--
+##### SOURCE BEGIN #####
+%% Fundamentals of Programming
+% <html>
+% <span style="font-family:Arial">
+% <span style="font-size:12pt">
+% <h2> Information </h2>
+% This curriculum module contains interactive
+% <a href="https://www.mathworks.com/products/matlab/live-editor.html">MATLAB&reg; live scripts</a>
+% that teach fundamental concepts and basic terminology related to programming computers. 
+% This includes discussion of inputs and outputs, numbers, strings, arrays, branches and loops. 
+% This content is broken into six instructional live scripts and one project where live script 
+% instructions are paired with a plain code practice script. Solutions are available to instuctors 
+% upon request.
+% <br>
+% <br>
+% <a href=#module>Fundamentals of Programming</a> includes an
+%     <a href=#script1>introduction</a> to programming which includes discussion of errors, 
+%     documentation, and other commonly encountered challenges for beginners. <a href=#script2>Data</a> 
+%     introduces double and string data types. <a href=#script3>Arrays</a> introduces 1, 2, and 3-D 
+%     arrays, as well as a brief overview of matrix operations. Applications include both text and 
+%     image data. <a href=#script4>Branches</a> introduces the concept of conditional branching in 
+%     the form of if/else branches and switch statements. <a href=#script5>Loops</a> introduces the 
+%     concept of conditional looping in the form of for loops and while loops. <a href=#script6>Chaos 
+%     Game Project</a> provides a scaffolded approach to implementing the chaos game by combining skills 
+%     from each of the other scripts. The final script, <a href=#script7>Algorithms</a>, introduces algorithms,
+%    pseudocode, and testing. Additional files include a live script <a href=#nav>Navigation</a> page and
+%    <a href=#hints>Collected Pro Tips</a>.
+% <br>
+% <br>
+% You can use these live scripts as lecture demonstrations, class activities,
+% or interactive assignments outside class. The module is divided into five instructional scripts,
+%     one project script, one navigation script, and one script collecting reference notes from
+%     all of the scripts into one place.
+% <br>
+% <br>
+% The instructions inside the live scripts will guide you through the exercises and activities.
+% Get started with each live script by running it one section at a time. To stop running the script
+% or a section midway (for example, when an animation is in progress), use the <img src="../Images/end_24.png" height="16" style="vertical-align:top"> Stop button in the
+% RUN section of the Live Editor tab in the MATLAB Toolstrip.
+% <br>
+% <br>
+% If you find an issue or have a suggestion, email the MathWorks online teaching team at
+% <a href="mailto:onlineteaching@mathworks.com">onlineteaching@mathworks.com</a>.
+% <br>
+% <br>
+% <h2> Prerequisites </h2>
+% This module assumes familiarity with basic mathematics at a high school level. 
+%     One exercise in <a href=#script2>Data.mlx</a> requires the use of the quadratic formula, 
+%     for instance. Understanding the chaos game requires locating points on a Cartesian 
+%     coordinate system and understanding of either vectors or midpoints. Trigonometric 
+%     functions are used as example functions. With respect to programming knowledge, this 
+%     module is intended for absolute beginners who have used simple calculators in the past.
+% <br>
+% <br>
+% <h2> Getting Started </h2>
+% <ol>
+%     <li>
+%         Make sure that you have all the required products (listed below)
+%         installed. 
+%     </li>
+%     <li>
+%         Get started with each topic by clicking the link in the first column of the table below to access the
+%         full script example. The instructions inside each live script will walk
+%         you through the live scripts and related functions.
+%     </li>
+% </ol>
+% <h2> Products </h2>
+%     MATLAB&reg; is used throughout. 
+% <br>
+% <br>
+% <h2> <a name="module"; style = "text-decoration: none; color: inherit">Scripts</a> </h2>
+% <table border=1 style="margin-left:20px; cellpadding:15px;">
+%     <caption><h3>Organization of the Fundamentals of Programming Module</h3></caption>
+%     <tr>
+%         <th scope="col">Topic
+%         </th>
+%         <th scope="col">In this script, students will...
+%         </th>
+%     </tr>
+%     <tr>
+%         <th scope="row">
+%             <a name="script1"; href="matlab:edit Introduction.mlx;"><b>Introduction.mlx</b> 
+%              <br>
+%             <img src = "https://user-images.githubusercontent.com/88841524/143081581-19e050df-9989-4a0a-a0de-56fc72275c63.png" width=150 style="margin-top:5px; margin-bottom:0px">
+%             </a>
+%         </th>              
+%         <td>
+%             <ul style="margin-top:5px; margin-bottom:10px">
+%                 <li> recognize and use the terms input and output. </li>
+%                 <li> recognize, interpret, and respond to messages about syntax errors. </li>
+%                 <li> recognize and interpret comments in code.</li>
+%                 <li> use documentation and search to learn more about how to use a programming language. </li>
+%                 <li> recognize and explain the importance of attention to detail when coding. </li>
+%             </ul>
+%         </td>
+%     </tr>
+%     <tr>
+%         <th scope="row">
+%             <a name="script2"; href="matlab:edit Data.mlx;"><b>Data.mlx</b> 
+%              <br>
+%             <img src = "https://user-images.githubusercontent.com/88841524/143084625-68e803df-696b-41ef-9cbc-74d08408f2c2.png" width=150 style="margin-top:5px; margin-bottom:0px">
+%             </a>
+%         </th>              
+%         <td>
+%             <ul style="margin-top:5px; margin-bottom:10px">
+%                 <li> recognize and explain that floating point arithmetic does not operate under the same rules as real number arithmetic. </li>
+%                 <li> apply the limitations of floating point arithmetic to computation. </li>
+%                 <li> recognize and use strings to store and communicate textual data.</li>
+%                 <li> recognize and use whitespace in string operations. </li>
+%                 <li> recognize and interpret special characters that are neither text nor numbers. </li>
+%                 <li> recognize and explain simple consequences of the interactions between data types. </li>
+%             </ul>
+%         </td>
+%     </tr>
+%     <tr>
+%         <th scope="row">
+%             <a name="script3"; href="matlab:edit Arrays.mlx;"><b>Arrays.mlx</b> 
+%              <br>
+%             <img src = "https://user-images.githubusercontent.com/88841524/145442883-39615554-4285-4922-a24e-ed3e12c2616f.png" width=150 style="margin-top:5px; margin-bottom:0px">
+%             </a>
+%         </th>              
+%         <td>
+%             <ul style="margin-top:5px; margin-bottom:10px">
+%                 <li> identify, create, and use vectors and matrices containing numbers or text. </li>
+%                 <li> use vector indexing to extract information from a vector or matrix. </li>
+%                 <li> identify standard file types and the corresponding extensions.</li>
+%                 <li> explain why file type matters and import data from external files. </li>
+%                 <li> recognize and use three dimensional arrays. </li>
+%             </ul>
+%         </td>
+%     </tr>
+%     <tr>
+%         <th scope="row">
+%             <a name="script4"; href="matlab:edit Branches.mlx;"><b>Branches.mlx</b> 
+%              <br>
+%             <img src = "https://user-images.githubusercontent.com/88841524/143081569-da98df74-e8a3-48b8-afe4-6457e7c08232.png" width=150 style="margin-top:5px; margin-bottom:0px">
+%             </a>
+%         </th>              
+%         <td>
+%             <ul style="margin-top:5px; margin-bottom:10px">
+%                 <li> recognize and apply if/then branching logic to solve problems. </li>
+%                 <li> recognize and apply switch branching logic to solve problems. </li>
+%             </ul>
+%         </td>
+%     </tr>
+%     <tr>
+%         <th scope="row">
+%             <a name="script5"; href="matlab:edit Loops.mlx;"><b>Loops.mlx</b> 
+%              <br>
+%             <img src = "https://user-images.githubusercontent.com/88841524/143083387-21665b27-73f8-4a42-a899-095ef6ae250c.png" width=150 style="margin-top:5px; margin-bottom:0px">
+%             </a>
+%         </th>              
+%         <td>
+%             <ul style="margin-top:5px; margin-bottom:10px">
+%                 <li> use for loop logic and syntax to write and execute iterative code. </li>
+%                 <li> use while loop logic and syntax to write and execute repetitive code, and decide when it is the correct method. </li>
+%             </ul>
+%         </td>
+%     </tr>
+%     <tr>
+%         <th scope="row">
+%             <a name="script6"; href="matlab:edit ChaosGameProject.mlx;"><b>Chaos Game Project</b> 
+%              <br>
+%             <img src = "https://user-images.githubusercontent.com/88841524/143081545-f64dc84f-3272-40bf-b952-b53cc36e1594.png" width=150 style="margin-top:5px; margin-bottom:0px">
+%             </a>
+%         </th>              
+%         <td>
+%             <ul style="margin-top:5px; margin-bottom:10px">
+%                 <li> apply conditional branching and looping logic in context to solve problems. </li>
+%                 <li> explain that different programming solutions to the same problem can run in very different amounts of time. </li>
+%                 <li> identify common file formats and their extensions. </li>
+%                 <li> communicate results by exporting data from a program in a standard, shareable file format.</li>
+%             </ul>
+%         </td>
+%     </tr>        
+%     <tr>
+%         <th scope="row">
+%             <a name="script7"; href="matlab:edit Algorithms.mlx;"><b>Algorithms.mlx</b> 
+%              <br>
+%             <img src = "https://user-images.githubusercontent.com/88841524/145443694-5c4552e4-687c-4bd0-b63e-68dca9ca7f85.gif" width=150 style="margin-top:5px; margin-bottom:0px">
+%             </a>
+%         </th>              
+%         <td>
+%             <ul style="margin-top:5px; margin-bottom:10px">
+%                 <li> explain the concept of an algorithm. </li>
+%                 <li> implement an algorithm presented in pseudocode. </li>
+%                 <li> explain the importance of testing both code and algorithms.</li>
+%             </ul>
+%         </td>
+%     </tr>        
+% </table>
+% <br>
+% <h2> Additional Files </h2>
+% <ul>
+%     <li> <a name="nav" href="matlab:edit NavigationOverview.mlx"> Navigation Overview </a> as a live script </li>
+%     <li> <a name="hints" href="matlab:edit CollectedProTips.mlx"> Collected Pro Tips </a> </li>
+% </span>
+% </span>
+% </html>
+% 
+% Copyright 2022 The MathWorks(TM), Inc.
+
+
+##### SOURCE END #####
+--></body></html>

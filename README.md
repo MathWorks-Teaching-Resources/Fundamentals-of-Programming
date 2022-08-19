@@ -1,4 +1,5 @@
-# Fundamentals of Programming [![View <File Exchange Title> on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/103225-fundamentals-of-programming)
+# Fundamentals of Programming [![View <File Exchange Title> on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/103225-fundamentals-of-programming) or [Open in MATLAB Online](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/project=Fundamentals-of-Programming&FundamentalsofProgramming.prj)
+
 **Curriculum Module**  
 _Created with R2021b. Compatible with R2021b and later releases._ 
 
@@ -7,7 +8,14 @@ This curriculum module contains interactive [live scripts](https://www.mathworks
 
 These lessons can be used as part of a lecture, as activities in an instructional setting, or as interactive assignments to be completed outside of class.
 
-Get started with the Fundamentals of Programming interactive examples by downloading and unzipping the repository. Then, double-click the FundamentalsofProgramming.prj file inside MATLAB&reg;. From there, you can follow the landing page instructions to get started with the examples. The instructions inside the live scripts will guide you through the exercises and activities. Get started with each live script by running it one section at a time. To stop running the script or a section midway (for example, if a loop is running longer than intended), click the **Stop** button in the **RUN** section of the **Live Editor** tab in the MATLAB Toolstrip.
+## Get started with the Fundamentals of Programming interactive examples ##
+**Option 1: Download to Desktop** Get started by downloading and unzipping the repository. Then, double-click the FundamentalsofProgramming.prj file inside MATLAB&reg;. 
+
+**Option 2: [Open in MATLAB Online](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/project=Fundamentals-of-Programming&FundamentalsofProgramming.prj)**
+Log in to your MathWorks account to access your license. If you are associated with a university, use your university email to access a campus-wide license. The project will run automatically. 
+
+From there, you can follow the landing page instructions to get started with the examples. The instructions inside the live scripts will guide you through the exercises and activities. 
+Get started with each live script by running it one section at a time. To stop running the script or a section midway (for example, if a loop is running longer than intended), click the **Stop** button in the **RUN** section of the **Live Editor** tab in the MATLAB Toolstrip.
 
 ## Prerequisite Domain Knowledge ##
 This module assumes familiarity with basic mathematics at a high school level. One exercise in programmingData.mlx requires the use of the quadratic formula, for instance. Understanding the chaos game requires locating points on a Cartesian coordinate system and understanding of either vectors or midpoints. Trigonometric functions are used as example functions. With respect to programming knowledge, this module is intended for absolute beginners who have used simple calculators in the past.
@@ -17,7 +25,8 @@ This module assumes familiarity with basic mathematics at a high school level. O
 This script brings together links and short descriptions of the content in the recommended order of use.
 
 ## ##
-**programmingIntroduction.mlx**
+**Introduction.mlx**
+[Open in MATLAB Online](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&FundamentalsofProgramming.prj&file=Introduction.mlx)
 This overview of the concepts of programming also includes discussion of errors, documentation, and other commonly encountered challenges for beginners.
 
 <img src="https://user-images.githubusercontent.com/88841524/154118752-64db3bc0-8d47-4797-b669-69b0de9ebe76.png" width="500">
@@ -30,7 +39,8 @@ This overview of the concepts of programming also includes discussion of errors,
 - Recognize and explain the importance of attention to detail when coding
 
 ## ##
-**programmingData.mlx**
+**Data.mlx**
+[Open in MATLAB Online](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&FundamentalsofProgramming.prj&file=Data.mlx)
 This script introduces `double` and `string` data types through interactive examples and exercises.
 
 <img src="https://user-images.githubusercontent.com/88841524/143084625-68e803df-696b-41ef-9cbc-74d08408f2c2.png" width="500">
@@ -44,7 +54,8 @@ This script introduces `double` and `string` data types through interactive exam
 - Recognize and explain simple consequences of the interactions between data types
 
 ## ##
-**programmingArrays.mlx**
+**Arrays.mlx**
+[Open in MATLAB Online](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&FundamentalsofProgramming.prj&file=Arrays.mlx)
 This script introduces 1, 2, and 3-D arrays, as well as a brief overview of matrix operations. Applications include both text and image data.
 
 <img src="https://user-images.githubusercontent.com/88841524/154118617-8a5e1656-d3a6-46ca-bfa5-6795b9fedf35.png" width="172"> <img src="https://user-images.githubusercontent.com/88841524/154118517-ad83511a-8f20-452e-93e1-dc0858a3eb78.png" width="349">
@@ -59,7 +70,8 @@ This script introduces 1, 2, and 3-D arrays, as well as a brief overview of matr
 - Recognize and use three dimensional arrays
 
 ## ##
-**programmingBranches.mlx**
+**Branches.mlx**
+[Open in MATLAB Online](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&FundamentalsofProgramming.prj&file=Branches.mlx)
 This script introduces the concept of conditional branching in the form of if/else branches and switch statements.
 
 <img src="https://user-images.githubusercontent.com/88841524/154118810-85b52f3f-5372-48dc-88aa-e4d2a734d488.png" width="200">
@@ -69,7 +81,8 @@ This script introduces the concept of conditional branching in the form of if/el
 - Recognize and apply switch branching logic to solve problems
 
 ## ##
-**programmingLoops.mlx**
+**Loops.mlx**
+[Open in MATLAB Online](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&FundamentalsofProgramming.prj&file=Loops.mlx)
 This script introduces the concept of conditional looping in the form of for loops and while loops.
 
 <img src="https://user-images.githubusercontent.com/88841524/143083387-21665b27-73f8-4a42-a899-095ef6ae250c.png" width="200">
@@ -79,7 +92,8 @@ This script introduces the concept of conditional looping in the form of for loo
 - Use while loop logic and syntax to write and execute repetitive code, and decide when it is the correct method
 
 ## ##
-**programmingChaosGameProject.mlx**
+**ChaosGameProject.mlx**
+[Open in MATLAB Online](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&FundamentalsofProgramming.prj&file=ChaosGameProject.mlx)
 
 <img src="https://user-images.githubusercontent.com/88841524/143081545-f64dc84f-3272-40bf-b952-b53cc36e1594.png" width="100"> <img src="https://user-images.githubusercontent.com/88841524/143081535-9c589293-d2cd-4b2d-ae28-4ad9096311de.png" width="100"> <img src="https://user-images.githubusercontent.com/88841524/143081525-e89145ef-c3bb-4084-bf94-cc6f585a8d83.png" width="100">
 
@@ -90,7 +104,8 @@ This script introduces the concept of conditional looping in the form of for loo
 - Communicating results by exporting data from a program in a standard, shareable file format
 
 ## ##
-**programmingAlgorithms.mlx**
+**Algorithms.mlx**
+[Open in MATLAB Online](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&FundamentalsofProgramming.prj&file=Algorithms.mlx)
 
 <img src="https://user-images.githubusercontent.com/88841524/145443694-5c4552e4-687c-4bd0-b63e-68dca9ca7f85.gif" width="800">
 
@@ -118,10 +133,10 @@ This live script serves as a collection of notes on using the Live Editor and th
 MATLAB&reg;
 
 ## License ##
-The license for this module is available in the License.txt file in this GitHub repository.
+The license for this module is available in the [LICENSE.md](LICENSE.md) file in this GitHub repository.
 
 ## Support ##
 The solutions are available upon instructor request. If you would like to request solutions or have a question, contact the <a href="mailto:onlineteaching@mathworks.com">MathWorks online teaching team.</a>
 
 # #
-_Copyright 2021 The MathWorks, Inc._
+_Copyright 2021-2022 The MathWorks, Inc._
