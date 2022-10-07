@@ -1,4 +1,5 @@
-# Fundamentals of Programming [![View <File Exchange Title> on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/103225-fundamentals-of-programming) or [Open in MATLAB Online](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj)
+# Fundamentals of Programming 
+[![View <File Exchange Title> on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/103225-fundamentals-of-programming) or [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj)
 
 **Curriculum Module**  
 _Created with R2021b. Compatible with R2021b and later releases._ 
@@ -11,7 +12,7 @@ These lessons can be used as part of a lecture, as activities in an instructiona
 ## Get started with the Fundamentals of Programming interactive examples ##
 **Option 1: Download to Desktop** Get started by downloading and unzipping the repository. Then, double-click the FundamentalsofProgramming.prj file inside MATLAB&reg;. 
 
-**Option 2: [Open in MATLAB Online](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj)**
+**Option 2: [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj)**
 Log in to your MathWorks account to access your license. If you are associated with a university, use your university email to access a campus-wide license. The project will run automatically. 
 
 From there, you can follow the landing page instructions to get started with the examples. The instructions inside the live scripts will guide you through the exercises and activities. 
@@ -26,7 +27,8 @@ This script brings together links and short descriptions of the content in the r
 
 ## ##
 **Introduction.mlx**
-[Open in MATLAB Online](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=Introduction.mlx)
+[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=Introduction.mlx)
+
 This overview of the concepts of programming also includes discussion of errors, documentation, and other commonly encountered challenges for beginners.
 
 <img src="https://user-images.githubusercontent.com/88841524/154118752-64db3bc0-8d47-4797-b669-69b0de9ebe76.png" width="500">
@@ -40,7 +42,8 @@ This overview of the concepts of programming also includes discussion of errors,
 
 ## ##
 **Data.mlx**
-[Open in MATLAB Online](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=Data.mlx)
+[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=Data.mlx)
+
 This script introduces `double` and `string` data types through interactive examples and exercises.
 
 <img src="https://user-images.githubusercontent.com/88841524/143084625-68e803df-696b-41ef-9cbc-74d08408f2c2.png" width="500">
@@ -55,7 +58,8 @@ This script introduces `double` and `string` data types through interactive exam
 
 ## ##
 **Arrays.mlx**
-[Open in MATLAB Online](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=Arrays.mlx)
+[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=Arrays.mlx)
+
 This script introduces 1, 2, and 3-D arrays, as well as a brief overview of matrix operations. Applications include both text and image data.
 
 <img src="https://user-images.githubusercontent.com/88841524/154118617-8a5e1656-d3a6-46ca-bfa5-6795b9fedf35.png" width="172"> <img src="https://user-images.githubusercontent.com/88841524/154118517-ad83511a-8f20-452e-93e1-dc0858a3eb78.png" width="349">
@@ -71,7 +75,8 @@ This script introduces 1, 2, and 3-D arrays, as well as a brief overview of matr
 
 ## ##
 **Branches.mlx**
-[Open in MATLAB Online](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=Branches.mlx)
+[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=Branches.mlx)
+
 This script introduces the concept of conditional branching in the form of if/else branches and switch statements.
 
 <img src="https://user-images.githubusercontent.com/88841524/154118810-85b52f3f-5372-48dc-88aa-e4d2a734d488.png" width="200">
@@ -82,7 +87,8 @@ This script introduces the concept of conditional branching in the form of if/el
 
 ## ##
 **Loops.mlx**
-[Open in MATLAB Online](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=Loops.mlx)
+[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=Loops.mlx)
+
 This script introduces the concept of conditional looping in the form of for loops and while loops.
 
 <img src="https://user-images.githubusercontent.com/88841524/143083387-21665b27-73f8-4a42-a899-095ef6ae250c.png" width="200">
@@ -93,7 +99,7 @@ This script introduces the concept of conditional looping in the form of for loo
 
 ## ##
 **ChaosGameProject.mlx**
-[Open in MATLAB Online](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=ChaosGameProject.mlx)
+[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=ChaosGameProject.mlx)
 
 <img src="https://user-images.githubusercontent.com/88841524/143081545-f64dc84f-3272-40bf-b952-b53cc36e1594.png" width="100"> <img src="https://user-images.githubusercontent.com/88841524/143081535-9c589293-d2cd-4b2d-ae28-4ad9096311de.png" width="100"> <img src="https://user-images.githubusercontent.com/88841524/143081525-e89145ef-c3bb-4084-bf94-cc6f585a8d83.png" width="100">
 
@@ -105,7 +111,7 @@ This script introduces the concept of conditional looping in the form of for loo
 
 ## ##
 **Algorithms.mlx**
-[Open in MATLAB Online](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=Algorithms.mlx)
+[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=Algorithms.mlx)
 
 <img src="https://user-images.githubusercontent.com/88841524/145443694-5c4552e4-687c-4bd0-b63e-68dca9ca7f85.gif" width="800">
 
