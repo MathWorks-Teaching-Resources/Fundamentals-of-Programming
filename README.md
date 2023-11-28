@@ -55,43 +55,43 @@ MATLAB® is used throughout.
 # Scripts
 <a name="H_FB3BEAB7"></a>
 ## [**Introduction.mlx**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=Introduction.mlx) 
-|  | **In this script, students will...**  |
+| `Introduction` | **In this script, students will...**  |
 | :-- | :-- |
 | [<img src="Images/Earth-Moon-Rocket.png" width="171" alt="Earth-Moon-Rocket.png">](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=Introduction.mlx) |-  recognize and use the terms input and output. <br>-  recognize, interpret, and respond to messages about syntax errors. <br>-  recognize and interpret comments in code. <br>-  use documentation and search to learn more about how to use a programming language. <br>-  recognize and explain the importance of attention to detail when coding.  |
 
 <a name="H_DA6DEBA0"></a>
 ## [**Data.mlx**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=Data.mlx) 
-|  | **In this script, students will...**  |
+| `Data` | **In this script, students will...**  |
 | :-- | :-- |
 | [<img src="Images/Fading-Pi.png" width="171" alt="Fading-Pi.png">](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=Data.mlx) |-  recognize and explain that floating point arithmetic does not operate under the same rules as real number arithmetic. <br>-  apply the limitations of floating point arithmetic to computation. <br>-  recognize and use strings to store and communicate textual data. <br>-  recognize and use whitespace in string operations. <br>-  recognize and interpret special characters that are neither text nor numbers. <br>-  recognize and explain simple consequences of the interactions between data types.  |
 
 <a name="H_9364948C"></a>
 ## [**Arrays.mlx**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=Arrays.mlx) 
-|  | **In this script, students will...**  |
+| `Arrays` | **In this script, students will...**  |
 | :-- | :-- |
 | [<img src="Images/Computer-Thoughtbubble.png" width="171" alt="Computer-Thoughtbubble.png">](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=Arrays.mlx) |-  identify, create, and use vectors and matrices containing numbers or text. <br>-  use vector indexing to extract information from a vector or matrix. <br>-  identify standard file types and the corresponding extensions. <br>-  explain why file type matters and import data from external files. <br>-  recognize and use three dimensional arrays.  |
 
 <a name="H_8EADE081"></a>
 ## [**Branches.mlx**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=Branches.mlx) 
-|  | **In this script, students will...**  |
+| `Branches` | **In this script, students will...**  |
 | :-- | :-- |
 | [<img src="Images/Maze.png" width="171" alt="Maze.png">](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=Branches.mlx) |-  recognize and apply if/then branching logic to solve problems. <br>-  recognize and apply switch branching logic to solve problems.  |
 
 <a name="H_C3C86B1D"></a>
 ## [**Loops.mlx**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=Loops.mlx) 
-|  | **In this script, students will...**  |
+| `Loops` | **In this script, students will...**  |
 | :-- | :-- |
 | [<img src="Images/SeasonLoopFinal.png" width="171" alt="SeasonLoopFinal.png">](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=Loops.mlx) |-  use for loop logic and syntax to write and execute iterative code. <br>-  use while loop logic and syntax to write and execute repetitive code, and decide when it is the correct method.  |
 
 <a name="H_3717D850"></a>
 ## [**Chaos Game Project**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=ChaosGameProject.mlx) 
-|  | **In this script, students will...**  |
+| `Project` | **In this script, students will...**  |
 | :-- | :-- |
 | [<img src="Images/ChaosGameAngle.png" width="83" alt="ChaosGameAngle.png">](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=ChaosGameProject.mlx) [<img src="Images/ChaosGameSquare.png" width="83" alt="ChaosGameSquare.png">](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=ChaosGameProject.mlx) |-  apply conditional branching and looping logic in context to solve problems. <br>-  explain that different programming solutions to the same problem can run in very different amounts of time. <br>-  identify common file formats and their extensions. <br>-  communicate results by exporting data from a program in a standard, shareable file format.  |
 
 <a name="H_23FB8762"></a>
 ## [**Algorithms.mlx**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=Algorithms.mlx) 
-|  | **In this script, students will...**  |
+| `Algorithms` | **In this script, students will...**  |
 | :-- | :-- |
 | [<img src="Images/Algo-flowchart.png" width="171" alt="Algo-flowchart.png">](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=Algorithms.mlx) |-  explain the concept of an algorithm. <br>-  implement an algorithm presented in pseudocode. <br>-  explain the importance of testing both code and algorithms.  |
 
