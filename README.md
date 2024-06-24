@@ -49,7 +49,7 @@ Ensure you have all the required products ([listed below](#H_E850B4FF)) installe
 <a name="H_E850B4FF"></a>
 ## Products
 
-MATLAB® is used throughout.
+MATLAB® is used throughout. The `imsplit` command in `Arrays.mlx` is from the Image Processing Toolbox&trade;.
 
 <a name="H_E8C62B23"></a>
 # Scripts
