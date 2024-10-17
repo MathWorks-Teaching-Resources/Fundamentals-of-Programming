@@ -47,8 +47,8 @@ codegen/
 # Project settings
 Utilities/ProjectSettings.mat
 
-# Test results
-SoftwareTests/TestResults_*
+# GitLab page folder
+public/
 
 # Auto-generated from Scripts
 */*/MyFavoriteChaosGameImage.png

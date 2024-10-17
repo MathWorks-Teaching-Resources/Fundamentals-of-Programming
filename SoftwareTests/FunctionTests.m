@@ -1,19 +1,9 @@
 classdef FunctionTests < matlab.unittest.TestCase
 
-    methods(Test)
-        function checkTurkeys(testCase)
-            % import matlab.unittest.diagnostics.FigureDiagnostic;
-            myImg = imread("turkeys1.jpg");
-            fig = imshow(myImg);
-            % testCase.log(3,FigureDiagnostic(fig))
-        end
+    % https://www.mathworks.com/help/matlab/matlab_prog/use-parameters-in-class-based-tests.html
+
+    methods(Test)    
+
     end % methods
-
-     methods (TestClassTeardown)
-        function closeOutput(testCase)
-            close all force
-        end
-
-    end % methods (TestClassTeardown)
 
 end % classdef

@@ -1,0 +1,10 @@
+Name,Passed,Failed,Incomplete,Duration,Details
+SmokeTests[Project=0x0_char]/SmokeRun(Scripts=Algorithms.mlx),1,0,0,0.7268463,
+SmokeTests[Project=0x0_char]/SmokeRun(Scripts=Arrays.mlx),1,0,0,9.3609313,
+SmokeTests[Project=0x0_char]/SmokeRun(Scripts=Branches.mlx),1,0,0,6.786104,
+SmokeTests[Project=0x0_char]/SmokeRun(Scripts=ChaosGameProject.mlx),1,0,0,22.5506271,
+SmokeTests[Project=0x0_char]/SmokeRun(Scripts=CollectedProTips.mlx),1,0,0,1.9062873,
+SmokeTests[Project=0x0_char]/SmokeRun(Scripts=Data.mlx),1,0,0,1.1630145,
+SmokeTests[Project=0x0_char]/SmokeRun(Scripts=Introduction.mlx),1,0,0,0.7421083,
+SmokeTests[Project=0x0_char]/SmokeRun(Scripts=Loops.mlx),1,0,0,0.7135349,
+FunctionTests/checkTurkeys,1,0,0,0.1326755,
