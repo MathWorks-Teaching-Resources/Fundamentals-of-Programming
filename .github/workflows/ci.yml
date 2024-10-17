@@ -40,15 +40,6 @@ jobs:
           release: ${{ matrix.MATLABVersion }}
           products: >
             Image_Processing_Toolbox
-            # Simulink Statistics_and_Machine_Learning_Toolbox
-          # List required products above in the format shown (and uncomment them)
-          # List of product strings:
-          # Simulink
-          # Statistics_and_Machine_Learning_Toolbox
-          # Simulink_Coder
-          # Econometrics_Toolbox
-          # Deep_Learning_Toolbox
-
 
       # Run all the tests
       - name: Run SmokeTests
