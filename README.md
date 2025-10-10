@@ -128,7 +128,7 @@ Or feel free to explore our other [modular courseware content](https://www.mathw
 
 # How to Contribute 
 
-Looking for more? Find an issue? Have a suggestion? Please contact the [MathWorks Educator Content Development Team](mailto:%20onlineteaching@mathworks.com). If you want to contribute directly to this project, you can find information about how to do so in the [CONTRIBUTING.md](https://github.com/MathWorks-Teaching-Resources/Vector-Arithmetic/blob/release/CONTRIBUTING.md) page on GitHub.
+Looking for more? Find an issue? Have a suggestion? Please contact the [MathWorks Educator Content Development Team](mailto:%20onlineteaching@mathworks.com). If you want to contribute directly to this project, you can find information about how to do so in the [CONTRIBUTING.md](https://github.com/MathWorks-Teaching-Resources/Fundamentals-of-Programming/blob/release/CONTRIBUTING.md) page on GitHub.
 
 
  *©* Copyright 2025 The MathWorks, Inc
