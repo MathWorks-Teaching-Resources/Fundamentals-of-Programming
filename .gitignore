@@ -47,8 +47,10 @@ codegen/
 # Project settings
 Utilities/ProjectSettings.mat
 
-# GitLab page folder
+# Testing and CI related artifact
 public/
+.buildtool/
+ci_utilities/
 
 # Auto-generated from Scripts
 */*/MyFavoriteChaosGameImage.png
