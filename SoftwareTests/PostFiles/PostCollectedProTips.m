@@ -1,3 +1,4 @@
-%  Post-run script for CollectedProTips.mlx
+%  Post-run script for CollectedProTips.m
 % ---- Post-run commands -----
- 
+
+% <matlab:ShareFeedback Share your feedback>

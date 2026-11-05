@@ -2,13 +2,13 @@
 
 Learn the underlying concepts of code, data, arrays, branching, loops, and algorithms.
 
-[![View on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/103225-fundamentals-of-programming) or [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=README.mlx)
+[![View on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/103225-fundamentals-of-programming) or [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=README.m)
 
 [![MATLAB Versions Tested](https://img.shields.io/endpoint?url=https://mathworks-teaching-resources.github.io/Fundamentals-of-Programming/TestedWith.json)](https://MathWorks-Teaching-Resources.github.io/Fundamentals-of-Programming)
 
 **Curriculum Module**
 
-_Created with R2024a. Compatible with R2024a and later releases._
+_The current plain-text live scripts require MATLAB R2025a or newer. For MATLAB R2024b or older, download the [legacy MLX release](https://github.com/MathWorks-Teaching-Resources/Fundamentals-of-Programming/releases/tag/mlx)._
 
 # Information
 
@@ -28,7 +28,7 @@ Contact the [MathWorks Educator Content Development Team](mailto:onlineteaching@
 
 ## Prerequisites
 
-This module assumes familiarity with basic mathematics at a high school level. One exercise in Data.mlx requires the use of the quadratic formula, for instance. Understanding the chaos game requires locating points on a Cartesian coordinate system and understanding of either vectors or midpoints. Trigonometric functions are used as example functions. With respect to programming knowledge, this module is intended for absolute beginners who have used simple calculators in the past.
+This module assumes familiarity with basic mathematics at a high school level. One exercise in Data.m requires the use of the quadratic formula, for instance. Understanding the chaos game requires locating points on a Cartesian coordinate system and understanding of either vectors or midpoints. Trigonometric functions are used as example functions. With respect to programming knowledge, this module is intended for absolute beginners who have used simple calculators in the past.
 
 
 ## Getting Started
@@ -39,7 +39,7 @@ Use the [<img src="Images/OpenInMO.png" width="136" alt="OpenInMO.png">](https:/
 
 ### **On Desktop:**
 
-Download or clone this repository. Open MATLAB, navigate to the folder containing these scripts and double\-click on [FundamentalsofProgramming.prj](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=README.mlx). It will add the appropriate files to your MATLAB path and open an app that asks you where you would like to start. 
+Download or clone this repository. Open MATLAB, navigate to the folder containing these scripts and double\-click on [FundamentalsofProgramming.prj](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=README.m). It will add the appropriate files to your MATLAB path and open an app that asks you where you would like to start. 
 
 
 Ensure you have all the required products (listed below) installed. If you need to include a product, add it using the Add\-On Explorer. To install an add\-on, go to the **Home** tab and select  <img src="Images/AddOnsIcon.png" width="16" alt="AddOnsIcon.png"> **Add-Ons** > **Get Add-Ons**. 
@@ -47,64 +47,64 @@ Ensure you have all the required products (listed below) installed. If you need 
 
 ## Products
 
-MATLAB® is used throughout. Image Processing Toolbox™ is used for <samp>imsplit</samp> in <samp>Arrays.mlx</samp>.
+MATLAB® is used throughout. Image Processing Toolbox™ is used for <samp>imsplit</samp> in <samp>Arrays.m</samp>.
 
 # Scripts
-## [**Introduction.mlx**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=Scripts/Introduction.mlx) 
+## [**Introduction.m**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=Scripts/Introduction.m) 
 |      |      |
 | :-- | :-- |
 |  | **In this script, students will...** <br>   |
-| [<img src="Images/Earth-Moon-Rocket.png" width="171" alt="Earth-Moon-Rocket.png">](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=Scripts/Introduction.mlx) <br>  | $\bullet$ recognize and use the terms input and output. <br> $\bullet$ recognize, interpret, and respond to messages about syntax errors. <br> $\bullet$ recognize and interpret comments in code. <br> $\bullet$ use documentation and search to learn more about how to use a programming language. <br> $\bullet$ recognize and explain the importance of attention to detail when coding. <br>   |
+| [<img src="Images/Earth-Moon-Rocket.png" width="171" alt="Earth-Moon-Rocket.png">](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=Scripts/Introduction.m) <br>  | $\bullet$ recognize and use the terms input and output. <br> $\bullet$ recognize, interpret, and respond to messages about syntax errors. <br> $\bullet$ recognize and interpret comments in code. <br> $\bullet$ use documentation and search to learn more about how to use a programming language. <br> $\bullet$ recognize and explain the importance of attention to detail when coding. <br>   |
 |      |       |
 
-## [**Data.mlx**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=Scripts/Data.mlx) 
+## [**Data.m**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=Scripts/Data.m) 
 |      |      |
 | :-- | :-- |
 |  | **In this script, students will...** <br>   |
-| [<img src="Images/Fading-Pi.png" width="171" alt="Fading-Pi.png">](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=Scripts/Data.mlx) <br>  | $\bullet$ recognize and explain that floating point arithmetic does not operate under the same rules as real number arithmetic. <br> $\bullet$ apply the limitations of floating point arithmetic to computation. <br> $\bullet$ recognize and use strings to store and communicate textual data. <br> $\bullet$ recognize and use whitespace in string operations. <br> $\bullet$ recognize and interpret special characters that are neither text nor numbers. <br> $\bullet$ recognize and explain simple consequences of the interactions between data types. <br>   |
+| [<img src="Images/Fading-Pi.png" width="171" alt="Fading-Pi.png">](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=Scripts/Data.m) <br>  | $\bullet$ recognize and explain that floating point arithmetic does not operate under the same rules as real number arithmetic. <br> $\bullet$ apply the limitations of floating point arithmetic to computation. <br> $\bullet$ recognize and use strings to store and communicate textual data. <br> $\bullet$ recognize and use whitespace in string operations. <br> $\bullet$ recognize and interpret special characters that are neither text nor numbers. <br> $\bullet$ recognize and explain simple consequences of the interactions between data types. <br>   |
 |      |       |
 
-## [**Arrays.mlx**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=Scripts/Arrays.mlx) 
+## [**Arrays.m**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=Scripts/Arrays.m) 
 |      |      |
 | :-- | :-- |
 |  | **In this script, students will...** <br>   |
-| [<img src="Images/Computer-Thoughtbubble.png" width="171" alt="Computer-Thoughtbubble.png">](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=Scripts/Arrays.mlx) <br>  | $\bullet$ identify, create, and use vectors and matrices containing numbers or text. <br> $\bullet$ use vector indexing to extract information from a vector or matrix. <br> $\bullet$ identify standard file types and the corresponding extensions. <br> $\bullet$ explain why file type matters and import data from external files. <br> $\bullet$ recognize and use three dimensional arrays. <br>   |
+| [<img src="Images/Computer-Thoughtbubble.png" width="171" alt="Computer-Thoughtbubble.png">](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=Scripts/Arrays.m) <br>  | $\bullet$ identify, create, and use vectors and matrices containing numbers or text. <br> $\bullet$ use vector indexing to extract information from a vector or matrix. <br> $\bullet$ identify standard file types and the corresponding extensions. <br> $\bullet$ explain why file type matters and import data from external files. <br> $\bullet$ recognize and use three dimensional arrays. <br>   |
 |      |       |
 
-## [**Branches.mlx**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=Scripts/Branches.mlx) 
+## [**Branches.m**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=Scripts/Branches.m) 
 |      |      |
 | :-- | :-- |
 |  | **In this script, students will...** <br>   |
-| [<img src="Images/Maze.png" width="171" alt="Maze.png">](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=Scripts/Branches.mlx) <br>  | $\bullet$ recognize and apply if/then branching logic to solve problems. <br> $\bullet$ recognize and apply switch branching logic to solve problems. <br>   |
+| [<img src="Images/Maze.png" width="171" alt="Maze.png">](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=Scripts/Branches.m) <br>  | $\bullet$ recognize and apply if/then branching logic to solve problems. <br> $\bullet$ recognize and apply switch branching logic to solve problems. <br>   |
 |      |       |
 
-## [**Loops.mlx**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=Scripts/Loops.mlx) 
+## [**Loops.m**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=Scripts/Loops.m) 
 |      |      |
 | :-- | :-- |
 |  | **In this script, students will...** <br>   |
-| [<img src="Images/SeasonLoopFinal.png" width="171" alt="SeasonLoopFinal.png">](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=Scripts/Loops.mlx) <br>  | $\bullet$ use for loop logic and syntax to write and execute iterative code. <br> $\bullet$ use while loop logic and syntax to write and execute repetitive code, and decide when it is the correct method. <br>   |
+| [<img src="Images/SeasonLoopFinal.png" width="171" alt="SeasonLoopFinal.png">](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=Scripts/Loops.m) <br>  | $\bullet$ use for loop logic and syntax to write and execute iterative code. <br> $\bullet$ use while loop logic and syntax to write and execute repetitive code, and decide when it is the correct method. <br>   |
 |      |       |
 
-## [**Chaos Game Project**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=Scripts/ChaosGameProject.mlx) 
+## [**Chaos Game Project**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=Scripts/ChaosGameProject.m) 
 |      |      |
 | :-- | :-- |
 |  | **In this script, students will...** <br>   |
-| [<img src="Images/ChaosGameAngle.png" width="83" alt="ChaosGameAngle.png">](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=Scripts/ChaosGameProject.mlx) [<img src="Images/ChaosGameSquare.png" width="83" alt="ChaosGameSquare.png">](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=Scripts/ChaosGameProject.mlx) <br>  | $\bullet$ apply conditional branching and looping logic in context to solve problems. <br> $\bullet$ explain that different programming solutions to the same problem can run in very different amounts of time. <br> $\bullet$ identify common file formats and their extensions. <br> $\bullet$ communicate results by exporting data from a program in a standard, shareable file format. <br>   |
+| [<img src="Images/ChaosGameAngle.png" width="83" alt="ChaosGameAngle.png">](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=Scripts/ChaosGameProject.m) [<img src="Images/ChaosGameSquare.png" width="83" alt="ChaosGameSquare.png">](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=Scripts/ChaosGameProject.m) <br>  | $\bullet$ apply conditional branching and looping logic in context to solve problems. <br> $\bullet$ explain that different programming solutions to the same problem can run in very different amounts of time. <br> $\bullet$ identify common file formats and their extensions. <br> $\bullet$ communicate results by exporting data from a program in a standard, shareable file format. <br>   |
 |      |       |
 
-## [**Algorithms.mlx**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=Scripts/Algorithms.mlx) 
+## [**Algorithms.m**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=Scripts/Algorithms.m) 
 |      |      |
 | :-- | :-- |
 |  | **In this script, students will...** <br>   |
-| [<img src="Images/Algo-flowchart.png" width="171" alt="Algo-flowchart.png">](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=Scripts/Algorithms.mlx) <br>  | $\bullet$ explain the concept of an algorithm. <br> $\bullet$ implement an algorithm presented in pseudocode. <br> $\bullet$ explain the importance of testing both code and algorithms. <br>   |
+| [<img src="Images/Algo-flowchart.png" width="171" alt="Algo-flowchart.png">](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=Scripts/Algorithms.m) <br>  | $\bullet$ explain the concept of an algorithm. <br> $\bullet$ implement an algorithm presented in pseudocode. <br> $\bullet$ explain the importance of testing both code and algorithms. <br>   |
 |      |       |
 
 # Additional Scripts
 
-[Main Menu](./MainMenu.mlx) \- Just the link sections of this script for navigation
+[Main Menu](./MainMenu.m) \- Just the link sections of this script for navigation
 
 
-[Collected Pro Tips](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=Scripts/CollectedProTips.mlx) \- Notes on how to implement particular concepts in MATLAB
+[Collected Pro Tips](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fundamentals-of-Programming&project=FundamentalsofProgramming.prj&file=Scripts/CollectedProTips.m) \- Notes on how to implement particular concepts in MATLAB
 
 # License
 
@@ -131,6 +131,6 @@ Or feel free to explore our other [modular courseware content](https://www.mathw
 Looking for more? Find an issue? Have a suggestion? Please contact the [MathWorks Educator Content Development Team](mailto:%20onlineteaching@mathworks.com). If you want to contribute directly to this project, you can find information about how to do so in the [CONTRIBUTING.md](https://github.com/MathWorks-Teaching-Resources/Fundamentals-of-Programming/blob/release/CONTRIBUTING.md) page on GitHub.
 
 
- *©* Copyright 2025 The MathWorks, Inc
+ *©* Copyright 2026 The MathWorks, Inc
 
 

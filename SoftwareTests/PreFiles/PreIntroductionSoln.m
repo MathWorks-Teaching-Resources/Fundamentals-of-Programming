@@ -1,4 +1,4 @@
-%  Pre-run script for IntroductionSoln.mlx
+%  Pre-run script for IntroductionSoln.m
 % ---- Known Issues     -----
 KnownIssuesID = "";
 % ---- Pre-run commands -----
@@ -11,3 +11,5 @@ Thursday = "and";
 Friday = "another";
 Saturday = "all week"; 
 Sunday = "long";
+
+% <matlab:ShareFeedback Share your feedback>
